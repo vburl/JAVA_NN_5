@@ -7,6 +7,7 @@ package ca.danielherrmann.NeuronProject;
  * Training set input values are the integers 0-3, with integers corresponding to inputs based on their binary value.
  * For example, inputting 1 into the net inputs the values 0 and 1 (01), and inputting 3 inputs the values 1 and 1 (11).
  * Once trained, it then prints out its input and its output for all cases of two inputs.
+ * Training time differs dramatically each time the example is run depending on the initial random weights. 
  * @author DHermz
  */
 
