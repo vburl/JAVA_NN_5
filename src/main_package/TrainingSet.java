@@ -1,4 +1,4 @@
-package ca.danielherrmann.NeuronProject;
+package main_package;
 import java.util.Vector;
 import java.util.Random;
 import java.util.ListIterator;

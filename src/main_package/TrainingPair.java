@@ -1,4 +1,4 @@
-package ca.danielherrmann.NeuronProject;
+package main_package;
 
 /**
  * An object of the class TraingingPair defines an input and an output pair,

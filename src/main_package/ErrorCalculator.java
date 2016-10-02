@@ -1,4 +1,4 @@
-package ca.danielherrmann.NeuronProject;
+package main_package;
 
 import java.util.ListIterator;
 import java.util.Vector;

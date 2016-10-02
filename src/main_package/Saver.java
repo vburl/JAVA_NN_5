@@ -1,4 +1,4 @@
-package ca.danielherrmann.NeuronProject;
+package main_package;
 // Not currently complete, will be used to save neural networks. 
 public class Saver {
     

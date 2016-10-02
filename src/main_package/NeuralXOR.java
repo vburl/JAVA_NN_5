@@ -1,4 +1,4 @@
-package ca.danielherrmann.NeuronProject;
+package main_package;
 
 /**
  * A main method, used for testing the functionality of the rest of my code. I
