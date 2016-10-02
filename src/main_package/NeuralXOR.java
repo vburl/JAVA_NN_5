@@ -19,19 +19,19 @@ public class NeuralXOR {
 
 	public static void main(String[] args) {
 
-		NeuralNet firsttest = new NeuralNet(2, 2, 2, 1);
-		TrainingSet firstset = new TrainingSet();
+		NeuralNet neuralNet = new NeuralNet(2, 2, 2, 1);
+		TrainingSet trainingSet = new TrainingSet();
 
-		firstset.addPair(0, 0);
-		firstset.addPair(1, 1);
-		firstset.addPair(2, 1);
-		firstset.addPair(3, 0);
+		trainingSet.addPair(0, 0);
+		trainingSet.addPair(1, 1);
+		trainingSet.addPair(2, 1);
+		trainingSet.addPair(3, 0);
 
-		Trainer testtrainer = new Trainer(firsttest, firstset, 0.1, 0.1);
-		testtrainer.trainAll();
+		Trainer trainerTest = new Trainer(neuralNet, trainingSet, 0.1, 0.1);
+		trainerTest.trainAll();
 
 		for (int k = 0; k < 4; ++k) {
-			firsttest.fireAndPrint(k);
+			neuralNet.fireAndPrint(k);
 		}
 
 	}
